@@ -120,6 +120,13 @@ if (isset($_POST['simpan'])) { // Create or Update
             top: 20px;
             right: 20px;
         }
+
+        .footer-credit {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #6c757d;
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -213,6 +220,12 @@ if (isset($_POST['simpan'])) { // Create or Update
                     </tbody>
                 </table>
             </div>
+        </div>
+        <!-- Footer CREDIT -->
+        <div class="footer-credit">
+            <p>Kuliah Pemrograman Web Jurusan Teknik Informatika ITS (2023)</p>
+            <p>Pembuat Aplikasi: Muhammad Baihaqi Dawanis</p>
+            <p>Dosen: Imam Kuswardayan, S.Kom, M.T</p>
         </div>
     </div>
 </body>
